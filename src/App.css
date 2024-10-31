@@ -51,9 +51,9 @@
   color: white;
   padding: 16px;
   position: fixed;
-  top: 5%;
-  left: 50%;
-  transform: translateX(-50%);
+  top: 2%;
+  right: 0;
+  transform: translateX(-10%);
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   animation: slideDown 0.5s ease-in-out;
@@ -74,11 +74,11 @@
 }
 @keyframes slideDown {
   from {
-    transform: translate(-50%, -100%);
+    transform: translate(-10%, -100%);
     opacity: 0;
   }
   to {
-    transform: translate(-50%, 0);
+    transform: translate(-10%, 0);
     opacity: 1;
   }
 }
