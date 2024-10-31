@@ -1,0 +1,47 @@
+.box {
+  color: #EAD8B1;
+  border-radius: 5px;
+  cursor: move;
+  float: left;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.slot {
+  display: inline-block;
+  min-width: 60px;
+  width: fit-content;
+  height: 34px;
+  margin-right: 5px;
+  border: 2px solid white;
+  text-align: center;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+.slot span{
+  font-size: 20px;
+  color:red;
+}
+.custom-input {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid white;
+  padding-bottom: 2px;
+  box-sizing: border-box;
+  background-color: transparent;
+  width: 50px;
+  color: #DFC489;
+  font-size: 18px;
+}
+.alert {
+  animation: flashBorder 1s ease-in-out infinite; /* Thêm hiệu ứng nhấp nháy */
+}
+
+@keyframes flashBorder {
+  0%, 100% {
+    border-bottom-color: white; /* Màu ban đầu */
+  }
+  50% {
+    border-bottom-color: red; /* Màu cảnh báo */
+  }
+}
